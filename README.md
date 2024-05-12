@@ -12,13 +12,13 @@ The method contains three main parts:
    - Myocardial thickening measures the change in thickness of the heart muscle during contraction and relaxation.
 
 3. **Binary Classification using Modified Siamese Neural Network:**
-   - The quantified wall motion and myocardial thickening features, along with the original echo or MRI image, are fed into a binary classifier.
+   - The quantified wall motion and myocardial thickening features, along with the generated masks, are fed into a binary classifier.
    - The classifier is based on a modified Siamese neural network architecture.
    - The goal of this is to determine whether the patient has experienced a heart attack (Myocardial Infarction) based on the combined information from the segmentation and quantification steps.
 
-The code combines image segmentation, feature extraction, and binary classification to detect heart attacks from echo or MRI data. It's a comprehensive approach that leverages both structural information (from the masks) and functional information (from wall motion and myocardial thickening) to make accurate predictions.
+The code combines image segmentation, feature extraction, and binary classification to detect heart attacks from echo or MRI data. It's a comprehensive approach that leverages both structural information (from the masks) and functional information (from wall motion and myocardial thickening) to make predictions.
 
-
+![alt text](image.png)
 
 To run this project, install the following dependencies:
 

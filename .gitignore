@@ -1,5 +1,5 @@
-./datasets
-./notebooks/contours
-./notebooks/model
-./notebooks/logger
-./notebooks/model.pth
+datasets/
+notebooks/contours/
+notebooks/model/
+notebooks/logger/
+notebooks/model.pth
