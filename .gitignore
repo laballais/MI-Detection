@@ -1,0 +1,4 @@
+./datasets
+./notebooks/contours
+./notebooks/model
+./notebooks/model.pth
