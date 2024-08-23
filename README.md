@@ -16,7 +16,7 @@ The method contains three main parts:
    - The classifier is based on a modified Siamese neural network architecture.
    - The goal of this is to determine whether the patient has experienced a heart attack (Myocardial Infarction) based on the combined information from the segmentation and quantification steps.
 
-The code combines image segmentation, feature extraction, and binary classification to detect heart attacks from echo or MRI data. It's a comprehensive approach that leverages both structural information (from the masks) and functional information (from wall motion and myocardial thickening) to make predictions.
+The code combines image segmentation, feature extraction, and binary classification to detect heart attacks from echo or MRI data. It's a comprehensive approach that leverages both structural information (from the masks) and functional information (from wall motion and myocardial thickening) to detect heart attacks.
 
 ![alt text](image.png)
 
