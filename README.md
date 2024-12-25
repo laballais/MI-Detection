@@ -2,8 +2,8 @@
 This code detects Myocardial Infarction (heart attack) from echocardiograms (echo) or magnetic resonance images (MRI).
 The method contains three main parts:
 
-1. **Image Segmentation using U-Net:**
-   - A U-Net model performs image segmentation. Given an input echo or MRI image, the U-Net predicts pixel-wise masks that highlight the myocardium.
+1. **Image Segmentation using Attention U-Net:**
+   - An Attention U-Net model performs image segmentation. Given an input echo or MRI image, the Attention U-Net predicts pixel-wise masks that highlight the myocardium.
    - These masks help identify the boundaries of the heart tissue, which is crucial for subsequent analysis.
 
 2. **Quantification of Wall Motion and Myocardial Thickening:**
